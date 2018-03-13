@@ -12,4 +12,3 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   "#{name} you are number #{katz_deli.length}."
 end
-  
