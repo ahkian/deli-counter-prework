@@ -20,9 +20,9 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length == 0
-    return puts "There is no one in line."
+    return puts "There is nobody waiting to be served!"
   else
-    puts "Now serving #{katz_deli[0]}"
+    puts "Currently serving #{katz_deli[0]}"
     katz_deli.pop
   end
 end
