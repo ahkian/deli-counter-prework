@@ -19,10 +19,10 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  if katz_deli.length == 0 
+  if katz_deli.length == 0
     return puts "There is no one in line."
   else
     puts "Now serving #{katz_deli[0]}"
-    katz_deli.pop 
+    katz_deli.pop
   end
 end
