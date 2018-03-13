@@ -6,8 +6,8 @@ def line(katz_deli)
   else
     helper_array = []
     return_message = "The line is currrently: "
-    katz_deli.each_with_index do |name, idx|      
-      return_message << "#{idx + 1}. #{name} "      
+    katz_deli.each_with_index do |name, idx|
+      return_message << "#{idx + 1}. #{name} "
     end
     return puts return_message
   end
