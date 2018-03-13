@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     return puts "The line is currently empty."
   else
-    return katz_deli
+    return puts "The line is currrently: #{katz_deli}"
   end
 end
 
