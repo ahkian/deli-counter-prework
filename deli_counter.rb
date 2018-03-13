@@ -5,9 +5,9 @@ def line(katz_deli)
     return puts "The line is currently empty."
   else
     helper_array = []
-    return_message = "The line is currrently: "
+    return_message = "The line is currrently:"
     katz_deli.each_with_index do |name, idx|
-      return_message << "#{idx + 1}. #{name} "
+      return_message << " #{idx + 1}. #{name}"
     end
     return puts return_message
   end
