@@ -4,7 +4,12 @@ def line(katz_deli)
   if katz_deli.length == 0
     return puts "The line is currently empty."
   else
-    return puts "The line is currrently: #{katz_deli}"
+    helper_array = []
+    return_message = "The line is currrently: "
+    katz_deli.each_with_index do |name, idx|      
+      return_message << "#{idx + 1}. #{name} "      
+    end
+    return puts return_message
   end
 end
 
